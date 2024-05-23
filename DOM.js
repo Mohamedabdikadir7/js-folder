@@ -38,3 +38,17 @@ paragraph2.textContent = 'welcome to wajir'
 
 let head2 = document.getElementsByTagName('h1')[1]
 head2.textContent = 'welcome to kilifi'
+
+// creating a h1
+ document.getElementsByTagName('h1')
+let head6 = document.createElement('h1')
+head6.textContent = 'karibu nyeri'
+document.body.append(head6)
+
+ head6.style.color ='red';
+ head6.style.fontSize = '140px';
+let car = getElement
+
+
+// query selector
+
