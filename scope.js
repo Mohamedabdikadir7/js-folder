@@ -11,11 +11,11 @@
 // Global scope variable
 const globalVar = 'I am in global scope';
 
-function foo() {
+function fool() {
     console.log(globalVar); // Accessing globalVar from inside the function
 }
 
-foo(); // Output: I am in global scope
+fool(); // Output: I am in global scope
 
 // In this example, globalVar is accessible both inside and outside the foo function because it's declared in the global scope.
 
@@ -36,5 +36,10 @@ function outerFunction() {
 
 outerFunction(); // Output: I am in function  n scope
 
+let zey = 'abdi'
 
+function zeytun() {
+  
+}
 
+console.log(zey)
